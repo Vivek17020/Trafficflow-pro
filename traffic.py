@@ -10,7 +10,7 @@ import json
 width=400
 height=250
 def location(place):
-    geocoderApi = herepy.GeocoderApi('fywUFbdwhP7YRn5SZI2A-ZJ7te444T2vt3X5GWnveAE')
+    geocoderApi = herepy.GeocoderApi('cMsRmISuw1HyEV6y3t4mLemFhnfB4HEvZH-q7wQTUiA')
     response = geocoderApi.free_form(place)
     s=json.loads(str(response))
 
